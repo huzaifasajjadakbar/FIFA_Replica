@@ -7,6 +7,7 @@ import Small from "./smallcard";
 import Table from "./table";
 import { useState } from "react";
 import WOMAN from "./tablewoman";
+import Cardss from "./card2";
 function MAIN() {
 // NUMBER
   const[count,setcount]=useState(1);
@@ -28,18 +29,12 @@ function MAIN() {
      <Nabar/>
 
   </div>
-  <div class="row"style={{}}>
+  <div class="row"style={{border:" 1px solid black"}}>
     <div class="col-lg-10"style={{width:"300px"}}>
 
-    <div class="row"style={{height:"73.3%",backgroundColor:"lightblue"}}>
+    <div class="row"style={{height:"70.8%",backgroundColor:"lightcyan"}}>
 {/* uper bar */}
-<img src={require('./HD-wallpaper-santiago-bernabeu-rm-adidas-fifa-madrid-real-soccer-thumbnail.jpg')} alt="nolodead" style = {{height: "30%" ,borderRadius:"10%", width : " 13vw" ,marginLeft:"5%",marginTop:"5%"}}/>
- 
-<h2 style={{marginTop:"-300px",marginLeft:"20%",fontWeight:"bold"}}>FIFA</h2>
-
-<p style={{marginTop:"-700px" ,marginLeft:"5%",fontWeight:"bold"}}>
-  The 2022 FIFA World Cup is an international football tournament contested by the men's national teams of FIFA's member associations, and the 22nd FIFA World Cup. It is taking place in Qatar from 20 November to 18 December 2022
-  </p>
+<Cardss/>
     </div>
     <div class="row"style={{height:"40%",backgroundColor:"lightcyan"}}>
 {/* lowerbar */}

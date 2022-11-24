@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import "./card.css";
-function Cards() {
-    const[student,setstudent]=useState([{id:1,Tital:"football units the world",PA:"FIFA President inaugurates FIFA Forward project in Costa Rica",text:"The 2022 FIFA World Cup is an international football tournament contested by the men's national teams of FIFA's member associations",image :<img src={require('./A.jpeg')} alt="nolodead" style = {{height: "30vh" , width : " 100%"}}/>},
+function Cardss() {
+    const[student,setstudent]=useState([{id:1,Tital:"football units the world",PA:"FIFA President inaugurates FIFA Forward project in Costa Rica",text:"The 2022 FIFA World Cup is an international football tournament contested by the men's national teams of FIFA's member associations",image :<img src={require('./A.jpeg')} alt="nolodead" style = {{height: "20vh" , width : " 100%"}}/>},
                                         {id:2,Tital:"football units the world",PA:"FIFA President inaugurates FIFA Forward project in Costa Rica",text:"The 2022 FIFA World Cup is an international football tournament contested by the men's national teams of FIFA's member associations",image :<img src={require('./ap.webp')} alt="nolodead" style = {{height: "30vh" , width : " 100%"}}/>},
                                         {id:3,Tital:"football units the world",PA:"FIFA President inaugurates FIFA Forward project in Costa Rica",text:"The 2022 FIFA World Cup is an international football tournament contested by the men's national teams of FIFA's member associations",image :<img src={require('./was.jpeg')} alt="nolodead" style = {{height: "30vh" , width : "100%"}}/>}]); 
 
@@ -19,7 +19,7 @@ setstudent(filteredData)
     
 
   return (
-      <div style={{display:"flex"}}>
+      <div >
 
 
  
@@ -41,11 +41,11 @@ student.map((card,key)=>(
 
 
 
-<div class="card" style={{width:" 18rem",marginTop:"30vh",marginLeft:"80px"}}>
+<div class="card" style={{width:" 18rem", marginTop:"10px"}}>
   <p>{card.image}</p>
   <div class="card-body">
     <h5 class="card-title">{card.Tital}</h5>
-   0
+   
    
    
    
@@ -92,5 +92,5 @@ student.map((card,key)=>(
     );
    }
    
-   export default Cards;
+   export default Cardss;
    

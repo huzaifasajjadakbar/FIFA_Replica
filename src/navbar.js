@@ -27,31 +27,31 @@ function Nabar() {
           <a href="#" class="desktop-item">ABOUT FIFA</a>
           
         
-          <div class="mega-box">
+          <div class="mega-box"style={{backgroundColor:"white"}}>
             <div class="content">
               <div class="row">
                 
               </div>
               <div class="row">
-                <header>president</header>
+                <header>page 1</header>
                 <ul class="mega-links">
-                 <Link to="/Rout" style={{textDecoration:"none "}}><li><a href="#">Graphics</a></li></Link>
+                 <Link to="/Tearm" style={{textDecoration:"none "}}><li><a href="#">Tearm</a></li></Link>
                   <li><a href="#">Vectors</a></li>
                   <li><a href="#">Business cards</a></li>
                   <li><a href="#">Custom logo</a></li>
                 </ul>
               </div>
               <div class="row">
-                <header>Email Services</header>
+                <header>page 2 </header>
                 <ul class="mega-links">
-                  <li><a href="#">Personal Email</a></li>
+                <Link to="/Privacy" style={{textDecoration:"none "}}><li><a href="#">Privacy</a></li></Link>
                   <li><a href="#">Business Email</a></li>
                   <li><a href="#">Mobile Email</a></li>
                   <li><a href="#">Web Marketing</a></li>
                 </ul>
               </div>
               <div class="row">
-                <header>Security services</header>
+                <header>page 3</header>
                 <ul class="mega-links">
                   <li><a href="#">Site Seal</a></li>
                   <li><a href="#">VPS Hosting</a></li>
@@ -62,7 +62,7 @@ function Nabar() {
             </div>
           </div>
         </li>
-        {/* <li>
+        <li>
           <a href="#" class="desktop-item">Mega Menu</a>
           
         
@@ -70,8 +70,8 @@ function Nabar() {
             <div class="content">
               <div class="row">
               </div>
-              <div class="row">
-                <header>FIFA</header>
+              <div class="row"  style={{backgroundColor:"yellow"}}>
+                <header>privacy</header>
                 <ul class="mega-links">
                   <li><a href="#">Graphics</a></li>
                   <li><a href="#">Vectors</a></li>
@@ -79,8 +79,9 @@ function Nabar() {
                   <li><a href="#">Custom logo</a></li>
                 </ul>
               </div>
-              <div class="row">
-                <header>Email Services</header>
+
+              <div class="row" style={{backgroundColor:"yellow"}}>
+                <header>Tearm</header>
                 <ul class="mega-links">
                   <li><a href="#">Personal Email</a></li>
                   <li><a href="#">Business Email</a></li>
@@ -88,18 +89,12 @@ function Nabar() {
                   <li><a href="#">Web Marketing</a></li>
                 </ul>
               </div>
-              <div class="row">
-                <header>Security services</header>
-                <ul class="mega-links">
-                  <li><a href="#">Site Seal</a></li>
-                  <li><a href="#">VPS Hosting</a></li>
-                  <li><a href="#">Privacy Seal</a></li>
-                  <li><a href="#">Website design</a></li>
-                </ul>
-              </div>
+              
             </div>
+            
           </div>
-        </li> */}
+          
+        </li>
         <li><a href="#">Feedback</a></li>
       </ul>
       <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>

@@ -84,6 +84,8 @@ color: #054b8e;
     border-radius: 0px;
     margin-top: 10%;
   }
+ 
+  
   .mega-box{
     position: absolute;
     left: 0;
@@ -95,7 +97,7 @@ color: #054b8e;
     
   }
   .mega-box .content{
-    background: #f4f6f8;
+  
     padding: 25px 70px;
     display: flex;
     

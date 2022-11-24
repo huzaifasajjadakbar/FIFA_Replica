@@ -1,6 +1,8 @@
 import MAIN from "./mainpage";
 import {Routes,Route} from "react-router-dom";
 import Rout from "./Rout";
+import Privicy from "./privicy";
+import Tearm from "./tearm";
 function App() {
  
 
@@ -15,7 +17,8 @@ function App() {
 
 <Route path="/" element={<MAIN/>}  />
 
-<Route path="/Rout" element={<Rout/>}  />
+<Route path="/Tearm" element={<Tearm/>}  />
+<Route path="/privacy" element={<Privicy/>}  />
 </Routes>
 
  

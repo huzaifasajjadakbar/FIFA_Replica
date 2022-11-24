@@ -22,7 +22,7 @@ const[student,setstudent]=useState([{id:[props.val1],name:"argentina",Total:[pro
          
      
        return (
-           <div style={{marginTop:"10%",width:"80%",marginLeft:"10%",fontWeight:"bold",fontSize:"40px"}}>
+           <div style={{marginTop:"10%",width:"80%",marginLeft:"10%",fontWeight:"bold",fontSize:"20px"}}>
      
      <table className="table responsive-sm ">
         WOMAN

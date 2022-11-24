@@ -19,7 +19,7 @@ import { useState } from "react";
          
      
        return (
-           <div style={{marginTop:"10%",width:"80%",marginLeft:"10%",fontWeight:"bold",fontSize:"40px"}}>
+           <div style={{marginTop:"10%",width:"80%",marginLeft:"10%",fontWeight:"bold",fontSize:"20px"}}>
      
      <table className="table responsive-sm ">
         MEN
